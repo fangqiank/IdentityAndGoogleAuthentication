@@ -1,0 +1,4 @@
+﻿dotnet tool install -g dotnet-aspnet-codegenerator 
+
+*** generate all pages
+dotnet aspnet-codegenerator identity -dc ApplicationDbContext 
